@@ -1,3 +1,8 @@
+set background=dark
+set t_Co=16
+let g:solarized_visibility =  "low"
+colorscheme solarized
+
 syntax on
 
 let g:syntastic_auto_loc_list=0
@@ -117,6 +122,9 @@ vnoremap <silent> # :<C-U>
 if has("gui_running")
   set guioptions=egt
 endif
+
+" less syntax
+au BufNewFile,BufRead *.less set filetype=less
 
 "LANGUAGE SPECIFIC COMMANDS
 "
