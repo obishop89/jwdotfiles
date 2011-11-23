@@ -1,6 +1,14 @@
 [user]
-  name = Jamie Wong
-  email = jamie.lf.wong@gmail.com
+  name = Olivia Bishop
+  email = olivia@fb.com
+[alias]
+  st = status
+  br = branch
+  co = checkout
+  ci = commit
+  di = diff
+  lg = log --graph --pretty=format:'%Cred%h%Creset - %Cblue%an:%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  amend = commit --amend
 [color]
   branch = auto
   diff = auto
@@ -13,9 +21,6 @@
   added = yellow
   changed = green
   untracked = cyan
-[alias]
-  lg = log --graph --pretty=format:'%Cred%h%Creset - %Cblue%an:%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  amend = commit --amend
 [core]
   editor = /usr/bin/vim
   excludesfile = ~/.gitignore_global
